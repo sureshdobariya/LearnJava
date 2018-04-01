@@ -17,6 +17,7 @@
     }\n
       }
     </string>
+    <string name ="sd">sd</string>
     <string name="applicant">Applicant</string>
     <string name="id_number">Id Number</string>
     <string name="branch">Branch</string>
