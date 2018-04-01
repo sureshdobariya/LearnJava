@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="activity_bg">#e4e5e5</color>
+
+
+    <color name="green">#9aca40</color>
+    <color name="highLightColor">#3cb21f</color>
+    <color name="white">#ffffff</color>
+    <color name="secondary_color">#919498</color>
+    <color name="separator_color">#c8c9cb</color>
+    <color name="red">#ff6666</color>
+    <color name="facebook_bg">#405D9B</color>
+    <color name="google_bg">#e9eaeb</color>
+    <color name="progressbar_bg">#f2252a32</color>
+    <color name="primary_light">#444850</color>
+    <color name="black">#000000</color>
+    <color name="label_color">#e9eaeb</color>
+    <color name="send_message_color">#b2e389</color>
+    <color name="landing_bg">#CC232831</color>
+    <color name="card_gray_bg">#28000000</color>
+    <color name="receive_message_again">#f2f3f3</color>
+    <color name="colorItemSelector">#263cb21f</color>
+    <color name="color_invite">#F5B547</color>
+    <color name="color_near_by">#489FEC</color>
+    <color name="color_add_contact">#FF6666</color>
+    <color name="color_send_message">#666699</color>
+    <color name="background_color">@color/label_color</color>
+
+    <color name="rand1">#3366cc</color>
+    <color name="rand2">#dd3f11</color>
+    <color name="rand3">#ff9900</color>
+    <color name="rand4">#109618</color>
+    <color name="rand5">#990099</color>
+    <color name="rand6">#6BF3AD</color>
+    <color name="rand7">#FF8E9B</color>
+    <color name="rand8">#FF5252</color>
+    <color name="rand10">#7C4DFF</color>
+    <color name="rand11">#98EADC</color>
+    <color name="rand12">#7C4DFF</color>
+    <color name="rand13">#98EADC</color>
+    <color name="rand14">#BF3212</color>
+    <color name="rand15">#009BAC</color>
+    <color name="rand16">#ff6666</color>
+    <color name="rand17">#f2252a32</color>
+
+    <color name="colorDivider">#1F000000</color>
+    <color name="colorDisable">#61000000</color>
+
+    <color name="cornell_red">#b71c1c</color>
+    <color name="ruby">#e91e63</color>
+    <color name="rark_orchid">#9c27b0</color>
+    <color name="vivid_orange">#ffa000</color>
+    <color name="dark_cyan">#009688</color>
+    <color name="navy_blue">#01579b</color>
+    <color name="royal_purple">#4a148c</color>
+
+</resources>

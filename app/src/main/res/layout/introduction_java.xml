@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Introduction java"-->
+        <!--android:ellipsize="marquee"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@color/navy_blue"-->
+        <!--android:textSize="@dimen/h2" />-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/common_10_dp"
+        android:text="@string/introduction"
+        android:textSize="@dimen/h4" />
+
+    <TextView
+        android:id="@+id/textfeatureheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/common_10_dp"
+        android:text="-> java Feature"
+        android:textColor="@color/cornell_red"
+        android:textSize="@dimen/h4" />
+
+    <TextView
+        android:id="@+id/textfeature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/common_10_dp"
+        android:text="@string/feature_of_java"
+        android:textSize="@dimen/h4" />
+
+
+</LinearLayout>
+</ScrollView>
