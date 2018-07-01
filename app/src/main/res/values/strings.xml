@@ -1,63 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">RecyclerViewClickeble</string>
-    <string name="introduction">Java is a high-level programming language originally developed by Sun Microsystems and released
-        in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX.\n\n
+    <string name="app_name">Learn Java</string>
+    <string name="introduction">Java is a high-level programming language originally developed
+        by Sun Microsystems and releasedin 1995. Java runs on a variety of platforms, such as
+        Windows, Mac OS, and the various versions of UNIX.\n\n
 
-        Java programming language was originally developed by Sun Microsystems which was initiated by James Gosling and released
-        in 1995 as core component of Sun Microsystems\' Java platform (Java 1.0 [J2SE]).\n\n
+        Java programming language was originally developed by Sun Microsystems which was
+        initiated by James Gosling and releasedin 1995 as core component of Sun Microsystems\'
+        Java platform (Java 1.0 [J2SE]).\n\n
 
-        The latest release of the Java Standard Edition is Java SE 8. With the advancement of Java and its widespread popularity,
-        multiple configurations were built to suit various types of platforms.\n\n
+        The latest release of the Java Standard Edition is Java SE 8. With the advancement of
+        Java and its widespread popularity,multiple configurations were built to suit various
+        types of platforms.\n\n
 
-        For example: J2EE for Enterprise Applications, J2ME for Mobile Applications. The new J2 versions were renamed as Java SE,
-        Java EE, and Java ME respectively. Java is guaranteed to be Write Once, Run Anywhere.</string>
+        For example: J2EE for Enterprise Applications, J2ME for Mobile Applications. The new J2
+        versions were renamed as Java SE,Java EE, and Java ME respectively. Java is guaranteed
+        to be Write Once, Run Anywhere.</string>
+
+
     <string name="feature_of_java">
+
         <b>Object Oriented</b>\n
+
+
         − In Java, everything is an Object. Java can be easily extended since
         it is based on the Object model.\n\n
         <b>Platform Independent</b>\n
         − Unlike many other programming languages including C
-        and C++, when Java is compiled, it is not compiled into platform specific machine, rather into platform independent byte
-        code. This byte code is distributed over the web and interpreted by the Virtual Machine (JVM) on whichever platform it is
+        and C++, when Java is compiled, it is not compiled into platform specific machine,
+        rather into platform independent byte
+        code. This byte code is distributed over the web and interpreted by the Virtual Machine
+        (JVM) on whichever platform it is
         being run on.\n\n
         <b> Simple</b>\n
-        − Java is designed to be easy to learn. If you understand the basic concept of OOP Java, it would be easy
-        to master. Secure − With Java\'s secure feature it enables to develop virus-free, tamper-free systems. Authentication
-        techniques are based on public-key encryption. Architecture-neutral − Java compiler generates an architecture-neutral
-        object file format, which makes the compiled code executable on many processors, with the presence of Java runtime
+        − Java is designed to be easy to learn. If you understand the basic concept of OOP Java,
+        it would be easy
+        to master. Secure − With Java\'s secure feature it enables to develop virus-free, tamper
+        -free systems. Authentication techniques are based on public-key encryption. Architecture-neutral − Java compiler
+        generates an architecture-neutral
+        object file format, which makes the compiled code executable on many processors, with
+        the presence of Java runtime
         system.
+
         <b> Portable</b>\n
         − Being architecture-neutral and having no implementation dependent aspects of the specification
         makes Java portable. Compiler in Java is written in ANSI C with a clean portability boundary, which is a POSIX subset.
         Robust − Java makes an effort to eliminate error prone situations by emphasizing mainly on compile time error checking
         and runtime checking. \n
+
         <b>Multithreaded </b>\n
         − With Java\'s multithreaded feature it is possible to write programs that
         can perform many tasks simultaneously. This design feature allows the developers to construct interactive applications that
         can run smoothly. \n
+
         <b>Interpreted </b>\n
         − Java byte code is translated on the fly to native machine instructions and is
-        not stored anywhere. The development process is more rapid and analytical since the linking is an incremental and
-        light-weight process. High Performance − With the use of Just-In-Time compilers, Java enables high performance.\n\n
-        <b>Distributed</b>
+        not stored anywhere. The development process is more rapid and analytical since the
+        linking is an incremental andlight-weight process. High Performance − With the use of
+        Just-In-Time compilers, Java enables high performance.\n\n
+
+        <b>Distributed</b>\n
         − Java is designed for the distributed environment of the internet. \n\n
+
         <b>Dynamic</b>\n
-        − Java is considered to be more dynamic than C or C++ since it is designed to adapt to an evolving environment.
-        Java programs can carry extensive amount of run-time information that can be used to verify and resolve accesses to
-        objects
-        on run-time.</string>
+        − Java is considered to be more dynamic than C or C++ since it is designed to adapt to
+        an evolving environment.Java programs can carry extensive amount of run-time information
+        that can be used to verify and resolve accesses to objects on run-time.</string>
+
+    <string name="classdef">
+        A class can be defined as a template/blueprint that describes the behavior/state
+        that the object of its type supports.
+    </string>
+
+    <string name ="object">
+        Objects have states and behaviors. Example: A dog has states - color, name, breed as
+        well as behavior such as wagging their tail, barking, eating. An object is an instance
+        of a class.
+    </string>
+
     <string name="structure_of_program">
         class Simple\n
                 {\n
-                public static void main(String args[]){\n
+                public static void main(String args[ ]){\n
      System.out.println("Hello Java");\n
     }\n
       }
     </string>
-    <string name ="sd">sd</string>
-    <string name="applicant">Applicant</string>
-    <string name="id_number">Id Number</string>
-    <string name="branch">Branch</string>
+
+    <string name ="method_overriding">
+        If subclass (child class) has the same method as declared in the parent class, it is
+        known as method overriding in java.\n\n
+        Method overriding is used to provide specific implementation of a method that is already
+        provided by its super class.\n\n
+        Method overriding is used for runtime polymorphism.\n\n
+        Example\n\n
+
+        class Vehicle\n
+         {\n
+           void run(){System.out.println("Vehicle is running");\n
+         }\n
+        }\n
+       class Car extends Vehicle\n
+        {\n
+
+       public static void main(String args[])\n
+        { \n
+       Car obj = new Car();\n
+       obj.run();\n
+  }\n
+ }\n\n
+        Output:\n\n
+        Vehicle is running
+    </string>
+
+    <string name="method_overloading">
+        If a class has multiple methods having same name but different in parameters,
+        it is known as Method Overloading.\n\n
+
+        If we have to perform only one operation, having same name of the methods increases
+        the readability of the program.\n\n
+
+        Method overloading increases the readability of the program.\n\n
+
+        Example :\n\n
+        class Addition\n\n
+        {
+          static int add(int a,int b)\n
+           {\n
+             return a+b;\n
+           }\n
+          static int add(int a,int b,int c)\n
+           {\n
+             return a+b+c;\n
+            } \n
+        } \n
+       class MethodOverloadingDemo\n
+        {\n
+            public static void main(String[] args)\n
+             {\n
+                 System.out.println(Addition.add(22,22)); \n
+                 System.out.println(Addition.add(22,22,22));\n
+             }\n
+        }\n\n
+        Output:\n\n
+        44\n
+        66
+    </string>
+
+    <string name="abstrac_class">
+        A class that is declared with abstract keyword, is known as abstract class in java.
+        It can have abstract and non-abstract methods (method with body).\n\n
+        Before learning java abstract class, let\'s understand the abstraction in java first.\n\n
+        Another way, it shows only important things to the user and hides the internal details
+        for example sending sms, you just type the text and send the message. You don\'t know the
+        internal processing about the message delivery.\n\n
+
+        Ways to achieve Abstraction\n\n
+
+           There are two ways to achieve abstraction in java\n
+
+             Abstract class (0 to 100%)\n
+             Interface (100%)\n\n
+        A class that is declared as abstract is known as abstract class. It needs to be extended
+        and its method implemented. It cannot be instantiated.\n\n
+
+        Example abstract class\n\n
+
+        abstract class A{} \n\n
+
+        abstract method\n\n
+
+        A method that is declared as abstract and does not have implementation is known as
+        abstract method.\n\n
+
+       Example abstract method\n\n
+
+        abstract void printStatus();//no body and abstract\n\n
+
+        Example of abstract class that has abstract method\n\n
+
+        abstract class Bike\n
+         {  \n
+          abstract void run(); \n
+        } \n
+
+        class Hero extends Bike\n
+        {  \n
+        void run()\n
+        {\n
+          System.out.println("running mode..");\n
+        }\n
+
+        public static void main(String args[])\n
+        {\n
+          Bike obj = new Hero();\n
+          obj.run();\n
+        }\n
+        }\n\n
+
+        OutPut :\n
+        running mode..\n\n
+
+        // Another example of abstract class in java\n\n
+
+        abstract class Bank\n
+        {\n
+          abstract int getRateOfInterest(); \n
+         } \n
+         class HDFC extends Bank\n
+           {\n
+          int getRateOfInterest()\n
+            {\n
+              return 9;\n
+            }\n
+         } \n
+       class KOTAK extends Bank\n
+        {  \n
+        int getRateOfInterest()
+         {\n
+          return 6;\n
+        }\n
+     }\n\n
+
+      class TestBank\n
+        { \n
+        public static void main(String args[])\n
+        {\n
+          Bank b;  \n
+           b=new HDFC();\n
+           System.out.println("Rate of Interest is: "+b.getRateOfInterest()+" %"); \n
+            b=new KOTAK();  \n
+            System.out.println("Rate of Interest is: "+b.getRateOfInterest()+" %");\n
+        }\n
+        } \n\n
+
+        Output:\n
+        Rate of Interest is: 9 %\n
+        Rate of Interest is: 6 %
+
+    </string>
+    <string name="interface_details">
+      An interface is a reference type in Java. It is similar to class. It is a collection of
+        abstract methods. A class implements an interface, thereby inheriting the abstract
+        methods of the interface.\n\n
+
+        Along with abstract methods, an interface may also contain constants, default methods,
+        static methods, and nested types. Method bodies exist only for default methods and
+        static methods.\n\n
+
+        Writing an interface is similar to writing a class. But a class describes the attributes
+        and behaviors of an object. And an interface contains behaviors that a class implements.
+        \n\n
+
+        An interface is similar to a class in the following ways \n\n
+
+         -An interface can contain any number of methods.\n
+         -An interface is written in a file with a .java extension, with the name of the
+          interface matching the name of the file.\n
+         -The byte code of an interface appears in a .class file.\n
+         -Interfaces appear in packages, and their corresponding bytecode file must be in a
+          directory structure that matches the package name.\n\n
+
+        However, an interface is different from a class in several ways, including \n\n
+
+       -You cannot instantiate an interface.\n
+        -An interface does not contain any constructors.\n
+        -All of the methods in an interface are abstract.\n
+        -An interface cannot contain instance fields. The only fields that can appear in an
+         interface must be declared both static and final.\n
+        -An interface is not extended by a class; it is implemented by a class.\n
+        -An interface can extend multiple interfaces.\n\n
+
+        Declaring Interfaces\n\n
+
+        The interface keyword is used to declare an interface. Here is a simple example to
+        declare an interface \n\n
+
+        Example :\n\n
+
+        /* File name : Bus.java */\n
+       interface Bus/n
+        {\n
+          public void stop();\n
+          public void running();\n
+        }\n\n
+
+        Implementing Interfaces\n\n
+
+        When a class implements an interface, you can think of the class as signing a contract,
+        agreeing to perform the specific behaviors of the interface. If a class does not perform
+        all the behaviors of the interface, the class must declare itself as abstract.\n\n
+
+        A class uses the implements keyword to implement an interface. The implements keyword
+        appears in the class declaration following the extends portion of the declaration.\n\n
+
+       Example:\n\n
+
+        /* File name : Vehicle.java */\n
+     public class Vehicle implements Bus\n
+        {\n
+
+   public void stop() \n
+        {\n
+      System.out.println("Bus Stoping..");\n
+      }\n
+
+   public void running()\n
+        {\n
+      System.out.println("Bus Running..");\n
+   } \n
+
+   public int noOfWheels()\n
+        {\n
+      return 0;\n
+   }\n
+
+   public static void main(String args[])\n
+        {\n
+      Vehicle v = new Vehicle();\n
+      v.stop();\n
+      v.running();\n
+   }\n
+} \n\n
+        Output:\n\
+         Bus Stoping..\n
+         Bus Running..
+
+    </string>
+
+    <string name="ingeritance_details">
+        - Inheritance in java is a mechanism in which one object acquires all the properties and
+        behaviors of parent object \n\n
+       -  Inheritance represents the IS-A relationship, also known as parent-child relationship.
+        \n\n
+
+        Why use inheritance in java\n
+         -For Method Overriding (so runtime polymorphism can be achieved).
+         -For Code Reusability.\n\n
+
+       # Syntax of Java Inheritance\n\n
+        class Subclass-name extends Superclass-name \n
+         { \n
+         //methods and fields \n
+         } \n\n
+        The extends keyword indicates that you are making a new class that derives from an existing
+        class. The meaning of "extends" is to increase the functionality.\n\n
+
+        Example\n\n
+        Developer is the subclass and Employee is the
+        superclass. Relationship between two classes is Developer IS-A Employee.It means
+        that Developer is a type of Employee.\n\n
+
+        class Employee{\n
+           float salary=40000; \n
+           }\n\n
+        class Developer  extends Employee{\n
+          int bonus=10000;\n
+          public static void main(String args[]){\n
+          Developer d=new Developer(); \n
+          System.out.println("Developer salary is:"+d.salary); \n
+          System.out.println("Bonus of Developer is:"+d.bonus);\n
+         } \n
+       } \n\n
+        Output : \n
+        Developer salary is:40000.0\n
+        Bonus of Developer is:10000\n\n
+
+        Types of inheritance in java\n
+        On the basis of class, there can be three types of inheritance in java: single, multilevel
+        and hierarchical.\n
+        In java programming, multiple and hybrid inheritance is supported through interface only\n
+    </string>
+
     <string name="address_1">Address 1</string>
     <string name="address_2">Address 2</string>
     <string name="origin">Origin</string>
@@ -71,7 +385,14 @@
     <string-array name="planets_array">
         <item>@string/introduction</item>
         <item>@string/feature_of_java</item>
-        <item>Earth</item>
-        <item>Mars</item>
+        <item>@string/classdef</item>
+        <item>@string/object</item>
+        <item>@string/structure_of_program</item>
+        <item>@string/method_overriding</item>
+        <item>@string/method_overloading</item>
+        <item>@string/abstrac_class</item>
+        <item>@string/interface_details</item>
+        <item>@string/ingeritance_details</item>
+
     </string-array>
 </resources>

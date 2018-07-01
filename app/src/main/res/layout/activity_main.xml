@@ -8,10 +8,9 @@
 
     <ListView
         android:id="@+id/list_view"
-        android:divider="@color/colorDisable"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-       />
+        android:divider="@color/colorDisable" />
 
 
 </RelativeLayout>

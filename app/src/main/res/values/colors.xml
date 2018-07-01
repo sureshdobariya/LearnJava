@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-
+    <!-- <color name="colorPrimary">#3F51B5</color>
+     <color name="colorPrimaryDark">#303F9F</color>
+     <color name="colorAccent">#FF4081</color>-->
+    <color name="colorPrimary">#1B2631</color>
+    <color name="colorPrimaryDark">#17202A</color>
+    <color name="colorAccent">#c5c5c5</color>
     <color name="activity_bg">#e4e5e5</color>
-
 
     <color name="green">#9aca40</color>
     <color name="highLightColor">#3cb21f</color>

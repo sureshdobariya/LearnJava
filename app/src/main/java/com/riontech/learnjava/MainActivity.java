@@ -32,14 +32,15 @@ public class MainActivity extends AppCompatActivity {
 
 
         listView = (ListView) findViewById(R.id.list_view);
-        Topic = new String[]{"Introdaction",
+        Topic = new String[]{
+                "Introdaction",
                 "Opps Concept",
-                "Structure of Java",
                 "Class",
                 "Object",
-                "Method Overloding",
+                "Structure of Java",
                 "Methode Overridding",
-                "Abstraction",
+                "Method Overloding",
+                "Abstract Class",
                 "Interface",
                 "Inheritance",
                 "super keyword",
@@ -59,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Log.d(TAG, "onItemClick: ");
-                Toast.makeText(getApplicationContext(), "You Are Selected:" + Topic[position], Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(), "You Are Selected:" + Topic[position], Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, Introduction.class);
                 intent.putExtra("srd",Topic[position]);
                 intent.putExtra("des",planets[position]);

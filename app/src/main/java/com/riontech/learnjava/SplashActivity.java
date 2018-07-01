@@ -30,7 +30,7 @@ public class SplashActivity extends Activity {
                 FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-       ImageView img=(ImageView)findViewById(R.id.imgSplash);
+        ImageView img=(ImageView)findViewById(R.id.imgSplash);
         img.startAnimation(animscale);
         mhandler = new Handler();
         mhandler.postDelayed(runnable, Constants.SPLASH_SCREEN_TIME_OUT);
